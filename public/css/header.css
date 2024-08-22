@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+.header {
+    background: linear-gradient(68deg, rgba(114, 140, 163, 1) 1%, rgba(3, 178, 199, 1) 26%, rgba(192, 194, 238, 1) 100%);
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    height: 54px;
+    align-items: center;
+    padding: 0 34px;
+}
+
+.header_icon i {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.header_mid_li {
+    display: flex;
+    list-style: none;
+    gap: 59px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+}
+
+.header_mid_li li:hover {
+    color: blue;
+}
+
+.header_user {
+    height: 30px;
+    background: white;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 51px;
+}
+
+/* header main css */
+
+.header_main {
+    height: 22rem;
+    /* background: linear-gradient(44deg, rgba(76, 88, 102, 1) 1%, rgba(3, 178, 199, 1) 50%, rgba(192, 194, 238, 1) 100%); */
+    background: linear-gradient(70deg, rgba(76, 88, 102, 1) 1%, rgba(3, 178, 199, 1) 50%, rgba(192, 194, 238, 1) 100%);
+   
+}
+
+/* Main section CSS */
+
+.main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.main_heading {
+    color: white;
+}
+
+.main_p {
+    color: blue;
+}
+
+.search_bar {
+    display: flex;
+    height: 39px;
+    width: 28rem;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 9px;
+    border-radius: 63px;
+}
+
+.search_bar input,
+button {
+    border: none;
+}
+
+.search_bar button {
+    height: 30px;
+    width: 79px;
+    background: linear-gradient(70deg, rgba(76, 88, 102, 1) 1%, rgba(3, 178, 199, 1) 1%, rgba(192, 194, 238, 1) 100%);
+    border-radius: 40px;
+}
+
+/* cart */
+
+.cart_container {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    /* gap: 10px; */
+    /* background-color: rgb(103, 103, 121); */
+}
+
+.cart {
+    display: flex;
+    gap: 19px;
+}
+
+.cart_ {
+    border-radius: 20px;
+    padding: 10px;
+    width: 18rem;
+}
